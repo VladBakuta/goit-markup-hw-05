@@ -127,7 +127,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--axcent-color);
 
-  transition-property: color, background-color, box-shadow;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -175,7 +175,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color);
 
-  transition-property: color, background-color, box-shadow;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -273,7 +273,7 @@ button {
   color: var(--add-color);
   background-color: var(--hover);
 
-  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -296,13 +296,12 @@ button {
   background: var(--bg-color-backdrop);
 
   opacity: 1;
-  transition-property: color, opacity, background-color, box-shadow;
+  transition-property: opacity, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
 
 .backdrop.is-hidden {
-  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
@@ -527,7 +526,7 @@ button {
   color: var(--icon-color);
   background-color: var(--add-color);
 
-  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -580,7 +579,7 @@ button {
   border-radius: 4px;
   color: var(--icon-color);
 
-  transition-property: color, background-color, box-shadow;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -701,7 +700,7 @@ button {
   transform: translateY(100%);
   background: rgba(33, 150, 243, 0.9);
 
-  transition-property: color, transform, background-color, box-shadow;
+  transition-property: transform, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -786,7 +785,7 @@ address {
 
   color: var(--vanish-color);
 
-  transition-property: color, background-color, box-shadow;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
@@ -833,7 +832,7 @@ address {
   background-color: var(--border-color-media);
   color: var(--add-color);
 
-  transition-property: color, background-color, box-shadow;
+  transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
